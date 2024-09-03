@@ -1,0 +1,66 @@
+# Hotel Management System
+
+## Descrição
+
+Este projeto consiste em um sistema de gerenciamento de reservas de hotel, desenvolvido em SQL. O sistema permite a gestão de hóspedes, quartos e reservas, realizando operações básicas de CRUD (Create, Read, Update, Delete) e consultas específicas para atender às necessidades de um hotel.
+
+## Estrutura do Projeto
+
+- **Banco de Dados**: `HotelManagementSystem`
+- **Tabelas**:
+  - `Hospedes`: Armazena informações dos hóspedes.
+  - `Quartos`: Armazena informações dos quartos disponíveis no hotel.
+  - `Reservas`: Armazena informações sobre as reservas feitas pelos hóspedes.
+
+## Comandos SQL Utilizados
+
+- `CREATE DATABASE`
+- `CREATE TABLE`
+- `INSERT INTO`
+- `SELECT`
+- `UPDATE`
+- `DELETE`
+- `JOIN`
+
+## Funcionalidades
+
+1. **Criar e Configurar o Banco de Dados**:
+    - Criação do banco de dados `HotelManagementSystem`.
+    - Criação das tabelas `Hospedes`, `Quartos`, e `Reservas`.
+
+2. **Inserir Dados**:
+    - Inserção de hóspedes, quartos e reservas com dados realistas.
+
+3. **Consultar Dados**:
+    - Listagem de hóspedes com suas respectivas reservas.
+    - Consulta de quartos disponíveis para um período específico.
+
+4. **Atualizar Dados**:
+    - Atualização das informações de contato de um hóspede.
+    - Modificação do preço de um quarto.
+
+5. **Deletar Dados**:
+    - Exclusão de uma reserva específica.
+    - Remoção de um hóspede e todas as suas reservas associadas.
+
+## Como Executar
+
+1. **Configurar o Ambiente**:
+    - Clone o repositório para sua máquina local.
+    - Certifique-se de ter um ambiente de banco de dados SQL configurado (MySQL, MariaDB, etc.).
+
+2. **Rodar os Scripts SQL**:
+    - Execute o script SQL contido no arquivo `Sistema_de_Reservas_de_Hotel` para criar o banco de dados e as tabelas, inserir dados, e realizar as operações de CRUD.
+
+3. **Verificar as Consultas**:
+    - Utilize as consultas fornecidas no script para verificar o estado do banco de dados após cada operação.
+
+## Estrutura de Arquivos
+
+- `hotel_management_system.sql`: Contém todos os comandos SQL necessários para configurar e manipular o banco de dados.
+- `README.md`: Este documento de explicação do projeto.
+- `.gitignore`: Arquivo para especificar quais arquivos ou diretórios não devem ser incluídos no repositório Git.
+
+## Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
