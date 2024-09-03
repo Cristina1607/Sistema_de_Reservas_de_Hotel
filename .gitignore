@@ -1,0 +1,48 @@
+# Ignorar arquivos de sistema e de IDEs
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar diretórios de configuração do MySQL
+mysql/
+
+# Ignorar arquivos de backup de SQL
+*.sql.bak
+*.sql~
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+
+## Projeto: Sistema de Reservas de Hotel
+
+### Descrição
+
+O objetivo deste projeto é desenvolver um sistema de gerenciamento de reservas de hotel usando SQL. O sistema deve ser capaz de armazenar e manipular informações relacionadas a hóspedes, quartos e reservas, permitindo realizar operações de criação, leitura, atualização e exclusão (CRUD) de registros no banco de dados.
+
+### Requisitos
+
+1. **Banco de Dados**: Criar um banco de dados nomeado `HotelManagementSystem`.
+2. **Tabelas**:
+    - **Hospedes**: Armazena informações dos hóspedes.
+    - **Quartos**: Armazena informações dos quartos disponíveis.
+    - **Reservas**: Armazena informações sobre as reservas feitas pelos hóspedes.
+3. **Inserir Dados**: Inserir pelo menos 5 hóspedes, 10 quartos e 5 reservas.
+4. **Consultas**:
+    - Listar todos os hóspedes com suas respectivas reservas.
+    - Listar todos os quartos disponíveis para um determinado período.
+5. **Atualizações**:
+    - Atualizar as informações de contato de um hóspede específico.
+    - Modificar o preço de um quarto.
+6. **Deleções**:
+    - Excluir uma reserva específica.
+    - Remover um hóspede e garantir que todas as suas reservas associadas também sejam excluídas.
+
+### Instruções
+
+1. Clone o repositório para a sua máquina local.
+2. Utilize o script SQL para criar e configurar o banco de dados.
+3. Siga os passos descritos no README.md para executar as operações solicitadas.
+4. Verifique as consultas e as operações de CRUD utilizando os comandos SQL fornecidos.
